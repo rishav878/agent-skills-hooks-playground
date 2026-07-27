@@ -1,0 +1,184 @@
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# API keys and secrets
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ==========================================
+# Jupyter
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# Testing / Coverage
+# ==========================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+logs/
+
+# ==========================================
+# Application Data
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Local runtime data
+data/
+runtime/
+tmp/
+temp/
+
+# ==========================================
+# ChromaDB / Vector Database
+# ==========================================
+
+chroma_data/
+chroma_db/
+.chroma/
+
+# ==========================================
+# ML / Model Files
+# ==========================================
+
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.gguf
+
+models/
+
+# ==========================================
+# Uploaded Files
+# ==========================================
+
+uploads/
+storage/
+
+# ==========================================
+# Node / React
+# ==========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Vite
+.vite/
+
+# ==========================================
+# Frontend Environment
+# ==========================================
+
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ==========================================
+# Streamlit
+# ==========================================
+
+.streamlit/secrets.toml
+
+# ==========================================
+# Docker
+# ==========================================
+
+*.pid
+
+# ==========================================
+# OS Files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Database / Migration Temporary Files
+# ==========================================
+
+*.db-journal
+*.sqlite-journal
+
+# ==========================================
+# Reports / Generated Files
+# ==========================================
+
+reports/
+generated/
+artifacts/
+
+# ==========================================
+# Agent / AI Generated Temporary Files
+# ==========================================
+
+.agent/
+.opencode/
+.claude/
+
+# ==========================================
+# Local Development
+# ==========================================
+
+*.local
